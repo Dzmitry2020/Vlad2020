@@ -1,0 +1,16 @@
+#p1 {
+    font-size: larger;
+    color: rgb(4, 0, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p2 {
+    font-size: larger;
+    color: rgb(255, 0, 170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p3 {
+    background-color: rgb(10, 10, 10);
+    font-size:small;
+    color: rgb(255, 251, 0);
+    font-family:monospace;
+}
