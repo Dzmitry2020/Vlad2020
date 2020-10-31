@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // программа для проверки на чётность
+        function isEven(number) {
+            if (isNaN(number)) {
+                alert("Эй! Это не число!");
+            }
+            else {
+                if (number % 2 == 0) {
+                    alert("Число является чётным")
+                } else (alert("Число является нечётным"))
+            }
+        }
+        isEven(prompt("Введите число:"));
+    </script>
+</body>
+
+</html>

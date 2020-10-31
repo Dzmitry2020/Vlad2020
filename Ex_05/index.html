@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // программа для вычисления площади прямоугольника
+        function square() {
+            var langth = prompt("Введите длинну:");
+            var width = prompt("Введите ширену:");
+            var result = Math.abs(width * langth);
+
+            if (isNaN(result)) {
+                alert("Площадь прямоугольника не определена!\nПопробуйте писать цифрами! Балда!");
+            }
+            else {
+                alert("Площадь прямоугольника: " + result);
+            }
+        }
+    </script>
+    <input type='button' value='Click me' onclick='square()' />
+</body>
+
+</html>
